@@ -6,6 +6,6 @@ $the_cow = <<EOC;
    $thoughts
       /\\_)o<
      |      \\
-     | O . O|
+     | $big_right_eye . $big_left_eye|
       \\_____/
 EOC

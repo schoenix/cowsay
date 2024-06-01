@@ -4,7 +4,7 @@
 $the_cow = <<EOC;
  $thoughts     /\\  ___  /\\
   $thoughts   // \\/   \\/ \\\\
-     ((    O O    ))
+     ((    $big_right_eye $big_left_eye    ))
       \\\\ /     \\ //
        \\/  | |  \\/ 
         |  | |  |  
