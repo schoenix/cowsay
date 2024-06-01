@@ -168,7 +168,9 @@ my $search_start_dir;
 
 sub find_cowfile_callback() {
     if (-f && /\.(cow|pm)$/) {
-        my $rel_file = substr($File::Find::name, length($search_start_dir) + 1);
+        #my $rel_file = substr($File::Find::name, length($search_start_dir) + 1);
+        my $rel_file = substr($File::Find::name, length($search_start_dir));
+        print "$rel_file\n";
         my $cow_name = $rel_file;
         $cow_name =~ s/\.(cow|pm)$//;
         push @found_cows, $cow_name;
